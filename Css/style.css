@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1110px;
+    margin: 0  auto;
+}
+.container-bg{
+    width: 1110px;
+    margin: 0  auto;
+    background-color: red;
+}
+.container-fluid{
+    width: 100%;
+}
+.header{
+    padding: 40px 20px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100% 
+}
+.header{
+    padding: 40px 20px;
+    background-color: black;
+}
+.nav1{
+    width: 44%;
+    display: inline-block;
+}
+.logo{
+    width: 20%;
+    display: inline-block;
+}
+.nav{
+    width: calc( 36% - 10px );
+    display: inline-block;
+}
+.nav ul{
+    list-style: none;
+    text-align: right;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 24px;
+}
+.nav li a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white
+}
+.nav1 ul{
+    list-style: none;
+    text-align: left;
+}
+.nav1 li{
+    display: inline-block;
+    padding: 20px 20px 0 0;
+    text-align: left; 
+}
+.nav1 li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: yellow
+} 
+.banner{
+    height: 30vh;
+    background-image: url('../img/photo-1597200381847-30ec200eeb9a.jpg');
+    background-size: cover;
+} 
+
+
+.section-1 img{
+    width: 100%
+}       
+.text{
+    margin: 0;
+    background-color: black;
+     color: white;
+     font-size: 40px;
+     text-align: center;
+}
+
+.section-2{
+    padding: 20px 0;
+}
+.feature{
+    vertical-align: middle;
+    overflow: hidden;
+}
+.content h1{
+    margin: 8px 50px 36px;
+    font-size: 35px;
+    padding: 150px 0 0 0;
+    color: white;
+}
+.content p{
+    margin: 8px 50px 36px;
+    font-size: 25px;
+    color: white;
+}
+.link{
+    padding: 6px 12px;
+    color:white;
+    text-decoration: none;
+    background-color: rgb(252, 177, 190);
+}
+.feature img{
+    height: 200%;
+    width: 100%;
+} 
+
+
+.section-3{
+    padding: 20px 20px 20px 40px;
+    vertical-align: middle;
+}
+.img1{
+    width: 33%;
+    display: inline-block;
+}
+.img1 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 50px;
+}
+.img1 h2{
+    font-size: 25px;
+    font-weight: 200;
+    padding: 0 0 0 50px;
+}
+.img2{
+    width: 33%;
+    display: inline-block;
+}
+.img2 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 0;
+}
+.img2 h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.img3{
+    width: 33%;
+    display: inline-block;
+}
+.img3 img{
+    width: 350px;
+    height: 350px;
+    padding: 0 40px 0 0;
+}
+.img3 h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+.Advertise{
+    padding: 20px 0;
+}
+.logo-brand img{
+    width: 1110px;
+    height: 400px;
+}
+
+.section-4{
+    padding: 20px 0;
+}
+.text1{
+     margin: 0 0 20px 0;
+     color: black;
+     font-size: 30px;
+     font-weight: 200;
+     text-align: center;
+}
+.card1{
+   width: 30%;
+   background: rgb(187, 179, 179);
+   box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+   border-radius: 20px;
+   overflow: hidden;
+   display: inline-block;
+   margin: 0 1%;
+}
+.feature-img1{
+    height: 450px;
+    overflow: hidden;
+}
+.feature-img1 img{
+    height: 100%;
+    width: 100%;
+}
+.description-card1{
+    padding: 48px 32px;
+}
+.description-card1 p{
+    margin: 12px 0 24px;
+}
+.meta1 span{
+    font-size: 12px;
+}
+.link1{
+    font-size: 12px;
+    color:rgb(243, 8, 47);
+    float: right;
+}
+.card2{
+    width: 30%;
+    background: rgb(187, 179, 179);
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 1%; 
+}
+ .feature-img2{
+     height: 450px;
+     overflow: hidden;
+}
+ .feature-img2 img{
+     height: 100%;
+     width: 100%;
+}
+ .description-card2{
+     padding: 48px 32px;
+}
+ .description-card2 p{
+     margin: 12px 0 24px;
+}
+ .meta2 span{
+     font-size: 12px;
+}
+ .link2{
+     font-size: 12px;
+     color:rgb(243, 8, 47);
+     float: right;
+}
+.card3{
+    width: 30%;
+    background:rgb(187, 179, 179);
+    box-shadow: 5px 25px 30px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 1%; 
+}
+ .feature-img3{
+     height: 450px;
+     overflow: hidden;
+}
+ .feature-img3 img{
+     height: 100%;
+     width: 100%;
+}
+ .description-card3{
+     padding: 48px 32px;
+}
+ .description-card3 p{
+     margin: 12px 0 24px;
+}
+
+.footer{
+    height: 100px;
+    background: black;
+}    
+.about-footer{
+    text-align: center;
+    background-color: rgb(194, 187, 187);
+    padding: 10px 0 10px 0;
+}
+.about-footer p{
+    margin: 8px 0 30px;
+}
+.link3{
+    color: rgb(243, 8, 47);
+    text-decoration: none;
+    font-size: 20px;
+}
+.list{
+    background-color: red;
+    padding: 60px 40px;
+    vertical-align: top;
+}
+.list-menu{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu ul{
+    list-style: none;
+}
+.list-menu li{
+    margin-bottom: 12px;
+}
+.list-menu h3{
+     color: white;
+}
+.list-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.list-menu1{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu1 ul{
+    list-style: none;
+}
+.list-menu1 li{
+    margin-bottom: 12px;
+}
+.list-menu1 h3{
+    color: white;
+}
+.list-menu1 li a{
+    color: white;
+    text-decoration: none;
+}
+.list-menu2{
+    width: 20%;
+    display: inline-block;
+    padding: 0 20px;
+    vertical-align: top;
+}
+.list-menu2 ul{
+    list-style: none;
+}
+.list-menu2 li{
+    margin-bottom: 12px;
+}
+.list-menu2 h3{
+    color: white;
+}
+.list-menu2 li a{
+    color: white;
+    text-decoration: none;
+}
+.infor{
+    width: calc( 40% - 40px );
+    display: inline-block;
+    padding: 20px 40px;
+    vertical-align: top;
+}
+.infor p{
+    padding: 20px 0;
+    color: white;
+}
+.copyright{
+    background:rgb(194, 187, 187);
+    padding: 12px 0;
+    text-align: center;
+    color:black;
+}
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  .containerr {
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+  
+  .containerr img {vertical-align: middle;}
+  
+  .containerr .contentt {
+    position: absolute;
+    bottom: 20px;
+    background: #FFFF00; /* Fallback color */
+    background: rgb(255, 255, 1, 0.3); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 98%;
+    padding: 30px;
+  }
